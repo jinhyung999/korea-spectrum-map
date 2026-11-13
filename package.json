@@ -1,0 +1,13 @@
+{
+  "name": "korea-spectrum-map",
+  "version": "0.1.0",
+  "description": "대한민국 주파수 분배표를 브라우저에서 확대·검색하는 스펙트럼 지도",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "start": "python -m http.server 8000",
+    "build:data": "python scripts/build_data.py"
+  },
+  "license": "MIT"
+}

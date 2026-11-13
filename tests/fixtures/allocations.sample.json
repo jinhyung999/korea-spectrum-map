@@ -1,0 +1,94 @@
+{
+  "source": {
+    "title": "대한민국 주파수 분배표",
+    "notice": "과학기술정보통신부고시 제2024-44호",
+    "effective": "2025-02-17",
+    "url": "https://www.law.go.kr/행정규칙/대한민국주파수분배표"
+  },
+  "bands": [
+    {
+      "lo": 44000000,
+      "hi": 50000000,
+      "label": "44-50 ㎒",
+      "services": [
+        { "name": "고정", "primary": true, "notes": [] },
+        { "name": "이동", "primary": true, "notes": [] },
+        { "name": "지구탐사위성(능동)", "primary": false, "notes": ["5.159A"] },
+        { "name": "무선탐지", "primary": false, "notes": ["5.162A"] }
+      ],
+      "notes": [],
+      "uses": ["48.5 ㎒(실험국용) K30"]
+    },
+    {
+      "lo": 50000000,
+      "hi": 54000000,
+      "label": "50-54 ㎒",
+      "services": [
+        { "name": "아마추어", "primary": true, "notes": [] },
+        { "name": "무선탐지", "primary": false, "notes": ["5.162A"] }
+      ],
+      "notes": [],
+      "uses": ["52 ㎒(아마추어국지정주파수)"]
+    },
+    {
+      "lo": 54000000,
+      "hi": 72000000,
+      "label": "54-72 ㎒",
+      "services": [
+        { "name": "방송", "primary": true, "notes": [] },
+        { "name": "무선탐지", "primary": false, "notes": ["5.162A"] }
+      ],
+      "notes": ["5.176"],
+      "uses": ["TV방송용"]
+    },
+    {
+      "lo": 72000000,
+      "hi": 74800000,
+      "label": "72-74.8 ㎒",
+      "services": [
+        { "name": "고정", "primary": true, "notes": [] },
+        { "name": "이동", "primary": true, "notes": [] }
+      ],
+      "notes": ["5.149"],
+      "uses": ["홍수예‧경보 K53A", "특정소출력(무선조정용, 음성 및 음향신호전송용) K37A K37D"]
+    },
+    {
+      "lo": 74800000,
+      "hi": 75200000,
+      "label": "74.8-75.2 ㎒",
+      "services": [{ "name": "항공무선항행", "primary": true, "notes": [] }],
+      "notes": [],
+      "uses": ["75 ㎒(실험국용) K30"]
+    },
+    {
+      "lo": 75200000,
+      "hi": 76000000,
+      "label": "75.2-76 ㎒",
+      "services": [
+        { "name": "고정", "primary": true, "notes": [] },
+        { "name": "이동", "primary": true, "notes": [] }
+      ],
+      "notes": [],
+      "uses": ["75.6 ㎒(홍수예‧경보) K53A", "특정소출력(무선조정용, 음성 및 음향신호전송용) K37A K37D"]
+    },
+    {
+      "lo": 76000000,
+      "hi": 88000000,
+      "label": "76-88 ㎒",
+      "services": [{ "name": "방송", "primary": true, "notes": [] }],
+      "notes": [],
+      "uses": ["TV방송용"]
+    },
+    {
+      "lo": 88000000,
+      "hi": 100000000,
+      "label": "88-100 ㎒",
+      "services": [
+        { "name": "방송", "primary": true, "notes": [] },
+        { "name": "이동", "primary": false, "notes": [] }
+      ],
+      "notes": [],
+      "uses": ["FM방송용", "재난경보방송용 K208"]
+    }
+  ]
+}
